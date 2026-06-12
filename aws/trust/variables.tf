@@ -6,7 +6,7 @@ variable "tfc_aws_audience" {
 
 variable "tfc_hostname" {
   type        = string
-  default     = "app.terraform.io"
+  default     = "app.staging.terraform.io"
   description = "The hostname of the TFC or TFE instance you'd like to use with AWS"
 }
 
@@ -23,7 +23,7 @@ variable "tfc_project_name" {
 
 variable "tfc_workspace_name" {
   type        = string
-  default     = "dynamic-credentials-trust-relationship"
+  default     = "provision-with-dynamic-credentials"
   description = "The name of the workspace that you'd like to create and connect to AWS"
 }
 
